@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.acaef827.css",
+    "main.js": "/static/js/main.c0e55780.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/NotoSansKR-Regular.ttf": "/static/media/NotoSansKR-Regular.9bc92a36ed81392f698b.ttf",
+    "static/media/NotoSansKR-SemiBold.ttf": "/static/media/NotoSansKR-SemiBold.cffe4dcd89082d2d3f3b.ttf",
+    "static/media/dog2.jpeg": "/static/media/dog2.50499698d96efb466cdf.jpeg",
+    "static/media/Banner1.png": "/static/media/Banner1.2e7a2fc7facb93301f29.png",
+    "static/media/dog1.jpg": "/static/media/dog1.34495138d89e34b2ba8d.jpg",
+    "static/media/logo.png": "/static/media/logo.d274d452201ab54094aa.png",
+    "static/media/dogSupplies2.jpg": "/static/media/dogSupplies2.37d14b0a159c5aebd8e0.jpg",
+    "static/media/dogSupplies.jpg": "/static/media/dogSupplies.5deea2339f053a571a66.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.acaef827.css.map": "/static/css/main.acaef827.css.map",
+    "main.c0e55780.js.map": "/static/js/main.c0e55780.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acaef827.css",
+    "static/js/main.c0e55780.js"
+  ]
+}
