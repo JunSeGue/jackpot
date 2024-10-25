@@ -1,0 +1,24 @@
+/* 부모 컨테이너 설정 */
+.register-button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+}
+
+/* 버튼 스타일 */
+.register-button {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* 이미지 스타일 */
+.register-button-icon {
+    height: 1em;
+    width: auto;
+    margin-left: 5px;
+    vertical-align: middle;
+}

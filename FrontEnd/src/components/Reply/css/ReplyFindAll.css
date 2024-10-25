@@ -1,0 +1,14 @@
+/* ReplyList.css */
+.reply-list {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .reply-list tr {
+    border-bottom: 1px solid #eee;
+  }
+  
+  .reply-list td {
+    padding: 10px;
+  }
+  
