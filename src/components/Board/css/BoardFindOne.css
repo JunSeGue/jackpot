@@ -1,0 +1,82 @@
+.board-read-container {
+  height: 45vh;
+  padding: 5px;
+  margin: 1.5% 0;
+  border: 1px solid transparent;
+  margin-top: 5%;
+}
+
+.board-read-table {
+  background-color: #ffffff;
+  margin: 0 auto; /* 테이블을 가운데 정렬 */
+}
+
+.board-read-table th, 
+.board-read-table td {
+  padding: 15px; /* 셀의 패딩 */
+  text-align: left; /* 텍스트 왼쪽 정렬 */
+  border: none; /* 기본 가로줄 제거 */
+}
+
+.board-content {
+  height: 400px; /* 내용 부분의 높이 */
+  vertical-align: top; /* 내용 텍스트 위쪽 정렬 */
+  white-space: pre-wrap; /* 줄 바꿈 허용 */
+}
+
+/* thead 맨 윗 가로줄 추가 */
+.board-read-table thead td {
+  border-top: 2px solid #eee1d4; /* thead 상단 가로줄 */
+  border-bottom: 2px solid #ff7600;
+}
+
+/* tfoot 맨 아랫 가로줄 추가 */
+.board-read-table tfoot td {
+  border-bottom: 2px solid #eee1d4; /* tfoot 하단 가로줄 */
+}
+
+/* tbody 내부 가로줄 제거 */
+.board-read-table tbody tr td {
+  border-bottom: none;
+  border-bottom: 2px solid #eee1d4;
+}
+
+/* 테이블 모서리에 border-radius 추가 */
+.board-read-table thead td:first-child {
+  border-top-left-radius: 10px; /* 상단 왼쪽 꼭짓점 */
+}
+
+.board-read-table thead td:last-child {
+  border-top-right-radius: 10px; /* 상단 오른쪽 꼭짓점 */
+}
+
+.board-read-table tfoot td:first-child {
+  border-bottom-left-radius: 10px; /* 하단 왼쪽 꼭짓점 */
+}
+
+.board-read-table tfoot td:last-child {
+  border-bottom-right-radius: 10px; /* 하단 오른쪽 꼭짓점 */
+}
+
+/* 버튼을 오른쪽 정렬하는 부분 */
+.button-container {
+  margin-top: 20px;
+}
+
+/* Link 컴포넌트 스타일 */
+.link-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ff7600; 
+  border-radius: 0.5cap;
+}
+
+.link-button:hover{
+  background-color: #ff7600;
+  color: #ffffff;
+}

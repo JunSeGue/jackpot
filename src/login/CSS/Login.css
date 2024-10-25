@@ -1,0 +1,257 @@
+/* Form.css */
+
+/* 전체 래퍼 설정 */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #707070;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+/* 컨테이너 설정 */
+.login-container {
+  display: flex;
+  flex-direction: column; /* 세로 방향으로 요소 배치 */
+  align-items: center;
+  width: 400px;
+  background: linear-gradient(0deg, #ffffff 0%, #f4f7fb 100%);
+  border-radius: 40px;
+  padding: 25px 35px;
+  border: 5px solid #ffffff;
+  box-shadow: rgba(133, 189, 215, 0.88) 0px 30px 30px -20px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+/* 헤딩 설정 */
+.heading {
+  display: flex;
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+  color: rgb(16, 137, 211);
+}
+
+/* 폼 설정 */
+.form {
+  display: flex;
+  flex-direction: column; /* 세로 방향으로 요소 배치 */
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* 입력 필드 설정 */
+.form .input {
+  display: flex;
+  width: 90%;
+  background: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow: #cff0ff 0px 10px 10px -5px;
+  border-inline: 2px solid transparent;
+}
+
+.form .input::placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .input:focus {
+  outline: none;
+  border-inline: 2px solid #12b1d1;
+}
+
+.check-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10%;
+  align-items: center;
+  margin-top: 15px;
+}
+.check-container > .input {
+  flex: 4;
+  height: 100%;
+  width: auto;
+  margin: 0;
+}
+.check-container > .button {
+  flex: 1;
+}
+
+.assist {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+
+  gap: 10px; /* 두 링크 사이 간격 */
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.forgot-Id {
+  display: flex;
+  justify-content: flex-start;
+  white-space: nowrap;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.forgot-Id a {
+  font-size: 11px;
+  color: #0099ff;
+  text-decoration: none;
+}
+
+/* 비밀번호 찾기 링크 설정 */
+.forgot-password {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.forgot-password a {
+  font-size: 11px;
+  color: #0099ff;
+  text-decoration: none;
+}
+
+.go-signUp {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+.go-signUp a {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+/* 로그인 버튼 설정 */
+
+.button {
+  display: flex;
+  width: 100%;
+  font-weight: bold;
+  background: linear-gradient(45deg, #1089d3 0%, #12b1d1 100%);
+  color: white;
+  padding: 15px;
+  margin: 0px auto;
+  border-radius: 20px;
+  box-shadow: rgba(133, 189, 215, 0.88) 0px 20px 10px -15px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(133, 189, 215, 0.88) 0px 23px 10px -20px;
+}
+
+.button:active {
+  transform: scale(0.95);
+  box-shadow: rgba(133, 189, 215, 0.88) 0px 15px 10px -10px;
+}
+
+.btn_sign {
+  margin-top: 15px !important;
+}
+
+/* 소셜 로그인 컨테이너 설정 */
+.social-account-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.social-account-container .title {
+  font-size: 10px;
+  color: rgb(170, 170, 170);
+}
+
+/* 소셜 버튼 그룹 설정 */
+.social-account-container .social-accounts {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+/* 소셜 버튼 설정 */
+.social-account-container .social-accounts .social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #000000 0%, #707070 100%);
+  border: 5px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-shadow: rgba(133, 189, 215, 0.88) 0px 12px 10px -8px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.social-account-container .social-accounts .social-button .svg {
+  fill: white;
+}
+
+.social-account-container .social-accounts .social-button:hover {
+  transform: scale(1.2);
+}
+
+.social-account-container .social-accounts .social-button:active {
+  transform: scale(0.9);
+}
+
+/* 이용 약관 링크 설정 */
+.agreement {
+  text-align: center;
+  margin-top: 15px;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 반응형 디자인을 위한 미디어 쿼리 */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px 25px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .form .input {
+    padding: 12px 15px;
+  }
+
+  .form .button {
+    padding: 12px;
+  }
+
+  .social-account-container .social-accounts .social-button {
+    width: 35px;
+    height: 35px;
+  }
+}

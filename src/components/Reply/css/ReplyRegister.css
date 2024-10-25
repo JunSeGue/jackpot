@@ -1,0 +1,21 @@
+.reply-textarea {
+  width: 90%; /* 텍스트 영역을 셀 너비에 맞춤 */
+  padding: 10px; /* 패딩 추가 */
+  resize: none; /* 크기 조정 비활성화 */
+  margin-right: 17px; /* 버튼과의 간격 설정 */
+}
+
+.reply-textarea::placeholder {
+  font-size: 14px; /* 원하는 폰트 사이즈로 설정 */
+}
+
+.reply-button {
+  color: #ff7600; /* 버튼 텍스트 색상 */
+  transition: background-color 0.3s; /* 부드러운 배경색 전환 효과 */
+}
+
+/* 버튼 호버 효과 */
+.reply-button:hover {
+  background-color: #ff7600; /* 호버 시 배경색을 주황색으로 변경 */
+  color: white; /* 호버 시 텍스트 색상을 흰색으로 변경 */
+}

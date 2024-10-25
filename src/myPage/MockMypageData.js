@@ -1,0 +1,120 @@
+const mockMypageData = {
+  member: {
+    email: "example@example.com",
+    pwd: "securePassword123",
+    name: "John Doe",
+    phone: "+82 10-1234-5678",
+    nickName: "Johnny",
+    address: "123 Main St, Seoul, South Korea",
+  },
+  returnItems: [
+    {
+      shopId: 1,
+      name: "사료",
+      category: "식자재",
+      status: "반품 요청",
+      price: 10000,
+    },
+    {
+      shopId: 2,
+      name: "인형",
+      category: "장난감",
+      status: "환불 완료",
+      price: 20000,
+    },
+    {
+      shopId: 3,
+      name: "유모차",
+      category: "개모차",
+      status: "반품 요청",
+      price: 30000,
+    },
+    {
+      shopId: 4,
+      name: "밥그릇",
+      category: "식자재",
+      status: "주문 취소",
+      price: 40000,
+    },
+    {
+      shopId: 5,
+      name: "하네스",
+      category: "의류",
+      status: "반품 요청",
+      price: 50000,
+    },
+  ],
+  fundingItems: [
+    { fundId: 1, dogId: 101, amount: 50000 },
+    { fundId: 2, dogId: 102, amount: 30000 },
+    { fundId: 3, dogId: 103, amount: 70000 },
+    { fundId: 4, dogId: 104, amount: 150000 },
+    { fundId: 5, dogId: 105, amount: 80000 },
+  ],
+};
+export default mockMypageData;
+
+export const MockShopData = {
+  data: [
+    {
+      id: 1,
+      orderId: "order_1729064231136",
+      name: "홍길동",
+      phone: "01012345678",
+      address: "서울시 강남구 어디어디",
+      deliveryState: 0,
+      quantity: 1, // productDTO에서 가져온 quantity
+      totalPrice: 130000,
+      memberID: 0, // 기본값으로 설정 (필요한 경우 값을 채우면 됨)
+      shopId: 0, // 기본값으로 설정 (필요한 경우 값을 채우면 됨)
+    },
+    {
+      id: 2,
+      orderId: "order_1729064231137",
+      name: "이순신",
+      phone: "01098765432",
+      address: "서울시 송파구 어디어디",
+      deliveryState: 1,
+      quantity: 2,
+      totalPrice: 240000,
+      memberID: 0,
+      shopId: 0,
+    },
+    {
+      id: 3,
+      orderId: "order_1729064231138",
+      name: "강감찬",
+      phone: "01012341234",
+      address: "서울시 서초구 어디어디",
+      deliveryState: 2,
+      quantity: 3,
+      totalPrice: 350000,
+      memberID: 0,
+      shopId: 0,
+    },
+    {
+      id: 4,
+      orderId: "order_1729064231139",
+      name: "유관순",
+      phone: "01056785678",
+      address: "서울시 중구 어디어디",
+      deliveryState: 0,
+      quantity: 1,
+      totalPrice: 120000,
+      memberID: 0,
+      shopId: 0,
+    },
+    {
+      id: 5,
+      orderId: "order_1729064231140",
+      name: "안중근",
+      phone: "01087658765",
+      address: "서울시 강북구 어디어디",
+      deliveryState: 1,
+      quantity: 5,
+      totalPrice: 450000,
+      memberID: 0,
+      shopId: 0,
+    },
+  ],
+};

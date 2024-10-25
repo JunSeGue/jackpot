@@ -1,0 +1,54 @@
+  /* 네비바와 배너 사이의 여백, 페이지스 디렉토리에 프리보드페이지 파일에서 사용함*/
+  .box{
+    height:75vh;
+  }
+
+  .banner-spacing-top2 {
+    margin-top: 60px;
+  }
+
+  .banner-margin-0 {
+    margin: 0 auto;
+  }
+
+  /* 1:1 문의 게시판으로 가기 */
+  .oneOnOneButton {
+    position: absolute;
+    top: 5%;
+    left: 68%;
+    padding: 5px 10px;
+    width: 200px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #ff7600;
+    z-index: 10;
+  }
+
+  /* 배너 이미지 크기 1200px로 조정 */
+  .banner-container {
+    width: 50%;
+    margin: 0 auto; /* 중앙 정렬 */
+    position: relative; /* 배너 내 텍스트 배치를 위한 상대적 위치 */
+    z-index: 1;
+  }
+
+  /* 배너 이미지 */
+  .banner-img {
+    width: 100%; /* 배너 컨테이너 안에서 100% 크기 */
+    height: auto; /* 이미지 비율을 유지하면서 크기 조정 */
+  }
+
+  /* 자유게시판 */
+  .banner-text {
+    left: 50px;
+    top: 110px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  /* 자유롭게 글을 쓰는 곳입니다. */
+  .banner-description {
+    left: 52px;
+    top: 195px;
+    font-size: 16px;
+  }

@@ -1,0 +1,34 @@
+/* BoardSearchBox.css */
+.board-search-container {
+  margin-bottom: 20px;
+}
+
+.board-search-form {
+  margin-top: 0.5rem;
+  right: 25%;
+  display: flex; /* 추가: flexbox로 정렬 */
+}
+
+.board-search-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #000000;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  width: 300px;
+}
+
+.board-search-button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  position: absolute; /* 추가: 아이콘을 absolute로 설정 */
+  right: 0; /* 추가: 오른쪽 끝에 위치 */
+  top: 50%; /* 추가: 세로 중앙 정렬 */
+  transform: translateY(-50%); /* 추가: 세로 중앙 정렬 */
+}
+
+.board-search-icon {
+  width: 24px;
+  height: 24px;
+}
